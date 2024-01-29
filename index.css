@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    min-height: 100vh;
+    background: #5691d5;
+    background: linear-gradient(282deg, #009dff 0%, #54bdff);
+}
+
+.box {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.upload-area-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.upload-label {
+    width: 100%;
+    min-height: 100px;
+    background-color: #18a7ff0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed #18a7ff82;
+    cursor: pointer;
+}
+
+.upload-label span {
+    font-size: 70px;
+    color: #18a7ff;
+}
+
+.upload-label p {
+    color: #18a7ff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.uploaded {
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a5a5a5;
+}
+
+.showfilebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 15px;
+    box-shadow: #0000000d 0 0 0 1px, #d1d5db3b 0 0 0 1px inset;
+}
+
+.showfilebox .left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fileType {
+    background-color: #18a7ff;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.left h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #292f42;
+}
+
+.right span {
+    background-color: #18a7ff;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 1rem;
+}
